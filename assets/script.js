@@ -110,3 +110,15 @@ welcomeBtn.addEventListener('click', () => {
 let current = 0;
 let score = 0;
 
+startQuiz();
+
+// Load Quiz By Inserting Question Properties To Corresponding Elements
+
+function startQuiz() {
+    const currentText = questions[current];
+    questionEl.innerText = currentText.question;
+    aText.innerText = currentText.a;
+    bText.innerText = currentText.b;
+    cText.innerText = currentText.c;
+    dText.innerText = currentText.d;
+}
