@@ -11,3 +11,20 @@ html {
 body {
     position: relative;
 }
+
+.welcome-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+.welcome-container.hide {
+    display: none;
+}
