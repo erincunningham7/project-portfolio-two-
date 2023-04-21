@@ -1,4 +1,4 @@
-// Quiz Questions
+// Start: Quiz Questions
 const questions = [
     {
         question: 'How many kids does Angelina Jolie have?',
@@ -81,3 +81,5 @@ const questions = [
         correct: 'c'
     }
 ]
+// End: Quiz Questions
+
