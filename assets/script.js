@@ -105,3 +105,8 @@ welcomeBtn.addEventListener('click', () => {
     welcome.classList.add('hide');
 });
 
+// Initialise Counter Variables
+
+let current = 0;
+let score = 0;
+
