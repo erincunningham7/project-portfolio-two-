@@ -98,3 +98,10 @@ const cText = document.getElementById('c_text');
 const dText = document.getElementById('d_text');
 const curr = document.getElementById('current');
 const submitBtn = document.getElementById('submit');
+
+// Add Event Listener To Welcome Button To Hide Screen
+
+welcomeBtn.addEventListener('click', () => {
+    welcome.classList.add('hide');
+});
+
