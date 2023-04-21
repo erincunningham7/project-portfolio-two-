@@ -83,3 +83,6 @@ const questions = [
 ]
 // End: Quiz Questions
 
+console.log(questions.length);
+
+
