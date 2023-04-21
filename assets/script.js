@@ -85,4 +85,16 @@ const questions = [
 
 console.log(questions.length);
 
+// Bring In Elements From The Dom
 
+const welcome = document.getElementById('welcome');
+const welcomeBtn = document.getElementById('welcome-btn');
+const quiz = document.getElementById('quiz');
+const answerEl = document.querySelectorAll('.answer');
+const questionEl = document.getElementById('question-txt');
+const aText = document.getElementById('a_text');
+const bText = document.getElementById('b_text');
+const cText = document.getElementById('c_text');
+const dText = document.getElementById('d_text');
+const curr = document.getElementById('current');
+const submitBtn = document.getElementById('submit');
