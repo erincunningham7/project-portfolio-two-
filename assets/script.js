@@ -115,10 +115,32 @@ startQuiz();
 // Load Quiz By Inserting Question Properties To Corresponding Elements
 
 function startQuiz() {
+
     const currentText = questions[current];
+
+// Insert The Question Properties Into The Dom
+
     questionEl.innerText = currentText.question;
     aText.innerText = currentText.a;
     bText.innerText = currentText.b;
     cText.innerText = currentText.c;
     dText.innerText = currentText.d;
 }
+
+// Add Event Listener To Welcome Button To Move To Next Quiz Question
+
+submitBtn.addEventListener('click', () => {
+
+    current++;
+
+// Add If/Else Statement To Increment Score & Alert Score When Quiz Finishes
+
+if (current < questions.length) {
+    startQuiz();
+    score++;
+} else {
+    alert(`Your score is ${score}`);
+};
+});
+
+
