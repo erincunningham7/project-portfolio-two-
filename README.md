@@ -63,6 +63,35 @@ The website contains all of the classic elements of a quiz - a series of multipl
 
 ## Testing
 
+I have conducted the compulsory tests in order to ensure the website works effectively.
+
+**Validator Testing**
+
+* Results for HTML
+
+![Image]()
+
+* Results for CSS
+
+![Image]()
+
+* Results for Javascript
+
+![Image]()
+
+**Browser Compatibility**
+
+Testing has been executed on the following browsers:
+
+ 1. Chrome Version 110.0.5481.178 (Official Build) (64-bit)
+ 2. Firefox Version 110.0.1 (64-bit)
+ 3. Safari on iOS Version 16.3
+ 4. Microsoft Edge Version 110.0.1587.63 (Official build) (64-bit)
+
+ **Responsive Testing**
+
+ 
+
 <a name="deployment"></a>
 
  ## Deployment
