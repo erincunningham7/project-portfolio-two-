@@ -40,6 +40,16 @@ The website contains all of the classic elements of a quiz - a series of multipl
 * I want to ensure the quiz works as intended to, loading each question accordingly, incrementing the score properly and the timer works effeciently.
 * I want the client to be able to navigate through the website easily and ensure the quiz is straightforward and simple to use.
 
+## Design
+
+*Imagery*
+
+*Colour Scheme*
+
+*Typography*
+
+*Wireframes*
+
 
   <a name="features"></a>
 
