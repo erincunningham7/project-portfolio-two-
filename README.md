@@ -21,6 +21,26 @@ The website contains all of the classic elements of a quiz - a series of multipl
 
  ## User Experience
 
+ **Site Goals**
+
+ 1. As A User
+
+ * I want to test my knowledge on celebrity pop culture.
+ * I want the quiz to be visually appealing and easy to navigate.
+ * I want to be entertained.
+ * I want the website to be responsive on whichever device I am playing it on.
+ * I want to immediately have an understanding of the site's purpose.
+
+2. As The Site Administrator
+
+* I want the website to load fast.
+* I want to utilise interactive elements to ensure client engagement.
+* I want to create an attractive website that is pleasing to the consumer.
+* I want the website to be fully responsive across all devices.
+* I want to ensure the quiz works as intended to, loading each question accordingly, incrementing the score properly and the timer works effeciently.
+* I want the client to be able to navigate through the website easily and ensure the quiz is straightforward and simple to use.
+
+
   <a name="features"></a>
 
  ## Features
