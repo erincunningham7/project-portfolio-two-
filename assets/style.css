@@ -23,6 +23,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: aquamarine;
+    z-index: 12;
 }
 
 .welcome-container.hide {
@@ -40,4 +41,5 @@ body {
     justify-content: center;
     align-items: center;
     background-color: peachpuff;
+    z-index: 10;
 }
