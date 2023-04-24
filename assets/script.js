@@ -149,18 +149,23 @@ function getUserAnswer() {
 // Add Event Listener To Welcome Button To Move To Next Quiz Question
 
 submitBtn.addEventListener('click', () => {
-
+    const answer = getUserAnswer()
     //current++;
-    console.log(getUserAnswer())
+
+    // Check the user answer against the question answer
+    if(answer === questions[current].correct) {
+        score++;
+    }
+
+    current++
 
 // Add If/Else Statement To Increment Score & Alert Score When Quiz Finishes
 
-/*if (current < questions.length) {
-    startQuiz();
-    score++;
-} else {
-    alert(`Your score is ${score}`);
-};*/
+    if (current < questions.length) {
+        startQuiz();
+    } else {
+        alert(`Your score is ${score}`);
+    };
 });
 
 
