@@ -90,7 +90,7 @@ console.log(questions.length);
 const welcome = document.getElementById('welcome');
 const welcomeBtn = document.getElementById('welcome-btn');
 const quiz = document.getElementById('quiz');
-const answerEl = document.querySelectorAll('.answer');
+const answerElements = document.querySelectorAll('.answer');
 const questionEl = document.getElementById('question-txt');
 const aText = document.getElementById('a_text');
 const bText = document.getElementById('b_text');
@@ -115,6 +115,9 @@ startQuiz();
 // Load Quiz By Inserting Question Properties To Corresponding Elements
 
 function startQuiz() {
+
+    // Unselect each input if it is checked
+    deselectAnswerInput()
 
     const currentText = questions[current];
 
@@ -142,5 +145,12 @@ if (current < questions.length) {
     alert(`Your score is ${score}`);
 };
 });
+
+function deselectAnswerInput () {
+    answerElements.forEach(answerElement => {
+       answerElement.checked = false;
+       
+    })
+};
 
 
