@@ -1,35 +1,38 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Pop Culture Quiz
+## Index - Table Of Contents
+1. [General Information](#general-info)
+2. [User Experience & Design](#ux)
+3. [Features](#features)
+4. [Technologies Used](#tech-used)
+5. [Testing](#testing)
+6. [Deployment](#deployment)
 
-Welcome,
+<a name="general-info"></a>
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## General Information
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **March 3rd, 2023**
+This is a challenging quiz that tests the clients pop culture knowledge. When deciding a concept for this project, I decided to create a quiz that incorporates a topic that I am familiar with. This made it easy for me to create questions and answers that I didn't have to spend time researching.
 
-## Codeanywhere Reminders
+The website contains all of the classic elements of a quiz - a series of multiple choice answers, a timer, and a user score that displays once all of the questions have been answered.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+![Image]()
 
-`python3 -m http.server`
+<a name="ux"></a>
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+ ## User Experience
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+  <a name="features"></a>
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+ ## Features
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+ <a name="tech-used"></a>
 
-To log into the Heroku toolbelt CLI:
+ ## Technologies Used
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+ <a name="testing"></a>
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Testing
 
----
+<a name="deployment"></a>
 
-Happy coding!
+ ## Deployment
