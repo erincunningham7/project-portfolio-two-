@@ -131,21 +131,38 @@ function startQuiz() {
     dText.innerText = currentText.d;
 }
 
+// Get the user input from the radio btns
+function getUserAnswer() {
+    let answer;
+
+    answerElements.forEach(answerElement => {
+        // Will be either true or fals
+        if(answerElement.checked){
+            // If true make answer equal to the answer elements id
+            answer = answerElement.id
+        }
+    })
+
+    return answer;
+}
+
 // Add Event Listener To Welcome Button To Move To Next Quiz Question
 
 submitBtn.addEventListener('click', () => {
 
-    current++;
+    //current++;
+    console.log(getUserAnswer())
 
 // Add If/Else Statement To Increment Score & Alert Score When Quiz Finishes
 
-if (current < questions.length) {
+/*if (current < questions.length) {
     startQuiz();
     score++;
 } else {
     alert(`Your score is ${score}`);
-};
+};*/
 });
+
 
 function deselectAnswerInput () {
     answerElements.forEach(answerElement => {
