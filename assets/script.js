@@ -183,7 +183,7 @@ function deselectAnswerInput() {
 
 // Elements for welcome text header
 const welcomeHeader = document.getElementById('welcome-heading')
-const welcomeHeaderText = "Erin's Pop Quiz"
+const welcomeHeaderText = "Erin's Pop Culture Quiz"
 let textIndex = 1;
 let textSpeed = 300;
 //console.log(welcomeHeaderText[textIndex]);
