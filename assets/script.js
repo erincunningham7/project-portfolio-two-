@@ -164,7 +164,11 @@ submitBtn.addEventListener('click', () => {
     if (current < questions.length) {
         startQuiz();
     } else {
-        alert(`Your score is ${score}`);
+        //alert(`Your score is ${score} s`);
+        quiz.innerHTML = `
+        <h1>Your score is ${score}</h1>
+        <button id = 'submit' onclick= 'location.reload()'>Reload</button>
+        `
     };
 });
 
@@ -175,5 +179,17 @@ function deselectAnswerInput () {
        
     })
 };
+
+
+// Elements for welcome text header
+const welcomeHeader = document.getElementById('welcome-heading')
+const welcomeHeaderText = "Erin's Pop Quiz"
+let textIndex = 1;
+let textSpeed = 300;
+//console.log(welcomeHeaderText[textIndex]);
+//console.log(welcomeHeader)
+
+// Get a slice of the first letter for the heading from welcomeHeaderText
+welcomeHeader.textContent = welcomeHeaderText.slice(0, textIndex)
 
 
