@@ -122,7 +122,7 @@ function startQuiz() {
 
     const currentText = questions[current];
 
-// Insert The Question Properties Into The Dom
+    // Insert The Question Properties Into The Dom
 
     questionEl.innerText = currentText.question;
     aText.innerText = currentText.a;
@@ -137,7 +137,7 @@ function getUserAnswer() {
 
     answerElements.forEach(answerElement => {
         // Will be either true or fals
-        if(answerElement.checked){
+        if (answerElement.checked) {
             // If true make answer equal to the answer elements id
             answer = answerElement.id
         }
@@ -153,13 +153,13 @@ submitBtn.addEventListener('click', () => {
     //current++;
 
     // Check the user answer against the question answer
-    if(answer === questions[current].correct) {
+    if (answer === questions[current].correct) {
         score++;
     }
 
     current++
 
-// Add If/Else Statement To Increment Score & Alert Score When Quiz Finishes
+    // Add If/Else Statement To Increment Score & Alert Score When Quiz Finishes
 
     if (current < questions.length) {
         startQuiz();
@@ -173,10 +173,10 @@ submitBtn.addEventListener('click', () => {
 });
 
 
-function deselectAnswerInput () {
+function deselectAnswerInput() {
     answerElements.forEach(answerElement => {
-       answerElement.checked = false;
-       
+        answerElement.checked = false;
+
     })
 };
 
@@ -189,7 +189,24 @@ let textSpeed = 300;
 //console.log(welcomeHeaderText[textIndex]);
 //console.log(welcomeHeader)
 
-// Get a slice of the first letter for the heading from welcomeHeaderText
-welcomeHeader.textContent = welcomeHeaderText.slice(0, textIndex)
+writeHeadingText()
+
+function writeHeadingText() {
+    // Get a slice of the first letter for the heading from welcomeHeaderText
+    welcomeHeader.textContent = welcomeHeaderText.slice(0, textIndex)
+    // console.log(welcomeHeaderText.slice(0, 3))
+
+    // Increase textIndex counter by 1
+    textIndex++
+
+    // Check if the textIndex is bigger than the welcomeHeaderText
+    if (textIndex > welcomeHeaderText.length) {
+        //If it is reset the textIndex counter 1
+        textIndex = 1;
+    }
+    setTimeout(writeHeadingText, textSpeed)
+}
+
+
 
 
