@@ -67,7 +67,7 @@ The website contains all of the classic elements of a quiz - a series of multipl
 
  **Frameworks, Libraries & Programs Used**
 
- 
+
 
  <a name="testing"></a>
 
@@ -100,6 +100,20 @@ Testing has been executed on the following browsers:
 
  **Responsive Testing**
 
+
+**Original Design Concept**
+
+My original design idea varies drastically to the end product. I began my first attempt at the project feeling quite muddled and overwhelmed. My javascript code felt very disjointed and confusing. The questions variable was nested to an unnecessary extent making it difficult to work with. A lot of the code was copy and pasted from different sources and in the end I ended up with a script.js file that I couldn't really understand. I found myself extremely frustrated and knew that I couldn't possibly hand up a project I wasn't proud of.
+
+I decided to scrap the original project in the end and start from scratch. I researched extensively on youtube to try and break down the javascript in a way I could understand. I found excellent resources on youtube that really helped me to approach the new project from a simplified viewpoint. 
+
+[Coding along with videos like this one really aided in helping me understand the javascript concepts](https://youtu.be/aroYjgQH8Tw)
+
+[This free youtube javascript course reinforced the topics needed to create my project](https://youtu.be/PkZNo7MFNFg)
+
+[This youtube course was also very insightful](https://youtu.be/jS4aFq5-91M)
+
+[The first scrapped project can be found here](https://erincunningham7.github.io/project-portfolio-two-original/)
  
 
 <a name="deployment"></a>
@@ -145,4 +159,4 @@ Testing has been executed on the following browsers:
 5. Type git clone copied-git-url into the IDE terminal.
 
 6. The project will successfully be cloned on your local machine for use.
-s
+
