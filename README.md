@@ -95,3 +95,44 @@ Testing has been executed on the following browsers:
 <a name="deployment"></a>
 
  ## Deployment
+
+ *Version Control*
+
+ * The site was created using the Code ASnywhere editor and pushed to github to the remote repository 'project-portfolio-two-'.
+
+ * The following git commands were utilised regularly throughout development to push code to the remote repository:
+
+1. git status - This command displayed the modified files that needed to be pushed to the remote repository.
+
+2. git add <filename> - This command was used to add the files to the staging area before they are committed.
+
+3. git commit -m “commit message” - This command was utilised to commit changes to the local repository queue ready for the final step.
+
+4. git push - This command was applied to push all committed code to the remote repository on github.
+
+ *The site was deployed to GitHub pages. The following steps guide us through that process*
+
+ 1. In th GitHub repository, find the "Settings" tab, scroll down the menu on the left-hand side until you reach "Pages" and click it.
+
+ 2.  Under the "Build and Deployment" section you will see a source heading. From the drop down menu, select the "main" option.
+
+ 3. Click save.
+
+ 4. The page will automatically update and display "Your site is live at ..."  and from there you can click Visit Site to see your finsihed product!
+
+ [The live link can be found here](https://erincunningham7.github.io/project-portfolio-two-/)
+
+*Clone The Repository Locally*
+
+1. In the GitHub repository you want to clone locally, find the 'Code' tab and click on it.
+
+2. Click on HTTPS.
+
+3. Copy the repository link to the clipboard.
+
+4. Open your IDE of choice.
+
+5. Type git clone copied-git-url into the IDE terminal.
+
+6. The project will successfully be cloned on your local machine for use.
+s
