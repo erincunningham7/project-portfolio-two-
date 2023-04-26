@@ -59,6 +59,16 @@ The website contains all of the classic elements of a quiz - a series of multipl
 
  ## Technologies Used
 
+ **Languages Used**
+
+ * [HTML5](https://en.wikipedia.org/wiki/HTML5)
+ * [CSS3](https://en.wikipedia.org/wiki/CSS)
+ * [Javascript](https://en.wikipedia.org/wiki/JavaScript)
+
+ **Frameworks, Libraries & Programs Used**
+
+ 
+
  <a name="testing"></a>
 
 ## Testing
