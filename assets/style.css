@@ -55,3 +55,9 @@ body {
     align-items: center;
     background-color: cornflowerblue;
 }
+
+.error-container h1 {
+    font-size: 160px;
+    font-weight: 900;
+    letter-spacing: 20px;
+}

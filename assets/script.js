@@ -182,14 +182,14 @@ function deselectAnswerInput() {
 
 
 // Elements for welcome text header
-const welcomeHeader = document.getElementById('welcome-heading')
-const welcomeHeaderText = "Erin's Pop Culture Quiz"
+const welcomeHeader = document.getElementById('welcome-heading');
+const welcomeHeaderText = "Erin's Pop Culture Quiz";
 let textIndex = 1;
 let textSpeed = 300;
 //console.log(welcomeHeaderText[textIndex]);
 //console.log(welcomeHeader)
 
-writeHeadingText()
+writeHeadingText();
 
 function writeHeadingText() {
     // Get a slice of the first letter for the heading from welcomeHeaderText
@@ -197,15 +197,15 @@ function writeHeadingText() {
     // console.log(welcomeHeaderText.slice(0, 3))
 
     // Increase textIndex counter by 1
-    textIndex++
+    textIndex++;
 
     // Check if the textIndex is bigger than the welcomeHeaderText
     if (textIndex > welcomeHeaderText.length) {
         //If it is reset the textIndex counter 1
         textIndex = 1;
     }
-    setTimeout(writeHeadingText, textSpeed)
-}
+    setTimeout(writeHeadingText, textSpeed);
+};
 
 
 
