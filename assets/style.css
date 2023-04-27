@@ -142,3 +142,9 @@ body {
   font-weight: 900;
   letter-spacing: 20px;
 }
+
+.error-text {
+  font-size: larger;
+  letter-spacing: 5px;
+  padding-bottom: 10px;
+}
