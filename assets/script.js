@@ -99,6 +99,7 @@ const dText = document.getElementById('d_text');
 const curr = document.getElementById('current');
 const submitBtn = document.getElementById('submit');
 
+
 //console.log(welcome)
 // Add Event Listener To Welcome Button To Hide Screen
 
@@ -149,9 +150,10 @@ function getUserAnswer() {
 // Add Event Listener To Welcome Button To Move To Next Quiz Question
 
 submitBtn.addEventListener('click', () => {
-    const answer = getUserAnswer()
+    startTimer();
+    const answer = getUserAnswer();
     //current++;
-
+    startTimer();
     // Check the user answer against the question answer
     if (answer === questions[current].correct) {
         score++;
@@ -208,7 +210,8 @@ function writeHeadingText() {
 };
 
 // Timer code
-let time = 10;
+const timer = document.getElementById('timer');
+let time = 59;
 // let quizTimer = setInterval( () => {
 //  time--;
 //  if (time < 0) {
@@ -225,18 +228,14 @@ function startTimer() {
 }
 
 function updateTime() {
-    time--;
-    console.log(time)
+    timer.textContent = time--;
+    //console.log(time)
 
     if(time <= 0) {
-        clearInterval(time)
-        alert("TimeOver")
+        clearInterval(time);
+        alert("TimeOver");
     }
-}
-
-startTimer()
-
-
+};
 
 
 
