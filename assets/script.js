@@ -83,7 +83,7 @@ const questions = [
 ]
 // End: Quiz Questions
 
-console.log(questions.length);
+//console.log(questions.length);
 
 // Bring In Elements From The Dom
 
@@ -206,6 +206,37 @@ function writeHeadingText() {
     }
     setTimeout(writeHeadingText, textSpeed);
 };
+
+// Timer code
+let time = 10;
+// let quizTimer = setInterval( () => {
+//  time--;
+//  if (time < 0) {
+//     clearInterval(time);
+    
+//  }
+//  console.log(time);
+// }, 1000);
+
+let quizTimer;
+
+function startTimer() {
+    quizTimer = setInterval(updateTime, 1000);
+}
+
+function updateTime() {
+    time--;
+    console.log(time)
+
+    if(time <= 0) {
+        clearInterval(time)
+        alert("TimeOver")
+    }
+}
+
+startTimer()
+
+
 
 
 
