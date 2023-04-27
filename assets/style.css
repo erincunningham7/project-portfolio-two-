@@ -127,13 +127,14 @@ body {
 .error-container {
   top: 0;
   left: 0;
-  width: 100%;
+  width: 600px;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: cornflowerblue;
+  background-image: linear-gradient(to bottom right, #ffafcc 30%, #ffc8dd);
+  color: #fff;
 }
 
 .error-container h1 {
