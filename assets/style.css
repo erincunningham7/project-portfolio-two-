@@ -148,3 +148,13 @@ body {
   letter-spacing: 5px;
   padding-bottom: 10px;
 }
+
+
+/* Start: Media Quries */
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+/* End: Media  Quries */
