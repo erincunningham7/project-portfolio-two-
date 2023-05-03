@@ -133,7 +133,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(to bottom right, #ffafcc 30%, #ffc8dd);
+  /*background-image: linear-gradient(to bottom right, #ffafcc 30%, #ffc8dd);*/
   color: #fff;
 }
 
