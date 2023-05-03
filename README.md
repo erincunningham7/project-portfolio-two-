@@ -121,6 +121,19 @@ Chapter 7 Iterating Arrays pages 162-164
 Chapter 11 Timers Pages 323-324
 
 
+/*Testing items
+
+start button - console.log
+when a user clicked on an input that it was being stored - console log
+submit btn - check user answer
+reload quiz btn
+timer
+check score was being stored 
+test timer */
+
+
+
+
  
 
 <a name="deployment"></a>
