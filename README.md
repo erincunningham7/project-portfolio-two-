@@ -44,9 +44,30 @@ The website contains all of the classic elements of a quiz - a series of multipl
 
 *Imagery*
 
+* When brainstorming ideas for this project, I decided that imagery would not play an important part in this project. I wanted a simple, clean layout, ensuring users could focus on the quiz and not be distracted by loud, brash images.
+
+* So instead of using a background image, I opted for a pattern instead. I found [this website](https://heropatterns.com/) and came across the chosen pattern. The pattern is bubbly and fun and fits the entertainment element of the website. It is only visible when playing the quiz and it is discreet yet quite pretty.
+
+* The background is a bubble-gum pink which feels playful and fun. The pale purple compliments the pink and is not too distracting for the user, yet it is a nice touch.
+
+![Image]()
+
 *Colour Scheme*
 
+* When deciding what colours would suit the quiz, I researched [the colour feelings](https://99designs.com/blog/tips/how-color-impacts-emotions-and-behaviors/). I knew the colours had to be lighthearted and fun, hence why I chose the pink. The light purple envokes calm and soothing moods. I wanted the quiz to be challenging but at the same time enjoyable for the user and not too overwhelming. Adding the purple achieves this perfectly. 
+
+![Image]()
+
 *Typography*
+
+* When choosing a typography, I knew I had to have two different fonts. I wanted one font for the website's title, that was fun and endearing and I came across the [Fuzzy Bubbles font](https://fonts.google.com/specimen/Fuzzy+Bubbles) and chose to include it. 
+
+![Image]()
+
+* For the rest of the quiz, specifically the quiz questions, I needed a font style that was more serious and legible. Given that the quiz has a timer, I wanted to make sure the user could read the questions and answers quickly and not be detered by a busy font. I found the [Lato font](https://fonts.google.com/specimen/Lato) and given it's simple style, I decided to choose it.
+
+![Image]()
+
 
 *Wireframes*
 
@@ -66,6 +87,16 @@ The website contains all of the classic elements of a quiz - a series of multipl
  * [Javascript](https://en.wikipedia.org/wiki/JavaScript)
 
  **Frameworks, Libraries & Programs Used**
+
+* [The colour feelings helped me to choose the colours included in the website](https://99designs.com/blog/tips/how-color-impacts-emotions-and-behaviors/)
+
+* [I used google fonts when styling the text of the website](https://fonts.google.com/)
+
+* [I used this free pattern picker to style the background of my quiz section](https://heropatterns.com/)
+
+* I utilised O Reilly Javascript The Definitive Guide Seventh Edition Book to research certain topics for the quiz. 
+Chapter 7 Iterating Arrays pages 162-164
+Chapter 11 Timers Pages 323-324
 
 
 
@@ -114,11 +145,6 @@ I decided to scrap the original project in the end and start from scratch. I res
 [This youtube course was also very insightful](https://youtu.be/jS4aFq5-91M)
 
 [The first scrapped project can be found here](https://erincunningham7.github.io/project-portfolio-two-original/)
-
-
-I utilised O Reilly Javascript The Definitive Guide Seventh Edition Book to research certain topics for the quiz. 
-Chapter 7 Iterating Arrays pages 162-164
-Chapter 11 Timers Pages 323-324
 
 
 /*Testing items
