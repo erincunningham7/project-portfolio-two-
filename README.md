@@ -114,6 +114,13 @@ I decided to scrap the original project in the end and start from scratch. I res
 [This youtube course was also very insightful](https://youtu.be/jS4aFq5-91M)
 
 [The first scrapped project can be found here](https://erincunningham7.github.io/project-portfolio-two-original/)
+
+
+I utilised O Reilly Javascript The Definitive Guide Seventh Edition Book to research certain topics for the quiz. 
+Chapter 7 Iterating Arrays pages 162-164
+Chapter 11 Timers Pages 323-324
+
+
  
 
 <a name="deployment"></a>
