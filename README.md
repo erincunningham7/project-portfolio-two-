@@ -110,11 +110,11 @@ I have conducted the compulsory tests in order to ensure the website works effec
 
 * Results for HTML
 
-![Image]()
+![Image](images/html-validation.png)
 
 * Results for CSS
 
-![Image]()
+![Image](images/css-validation.png)
 
 * Results for Javascript
 
