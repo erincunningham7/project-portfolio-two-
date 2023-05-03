@@ -188,6 +188,7 @@ body {
   background-image: linear-gradient(to bottom right, #ffafcc 30%, #ffc8dd);
   /*background-image: linear-gradient(to bottom right, #ffafcc 30%, #ffc8dd);*/
   color: #fff;
+  z-index: 12;
 }
 
 .error-container h1 {
