@@ -239,7 +239,10 @@ function updateTime() {
 
     if(time <= 0) {
         clearInterval(quizTimer);
-        //alert("TimeOver");
+        quiz.innerHTML = `
+        <h1>You have ran out of time try again</h1>
+        <button id = 'submit' onclick= 'location.reload()'>Reload</button>
+        `
     }
 };
 
