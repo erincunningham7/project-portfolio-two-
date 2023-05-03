@@ -78,6 +78,18 @@ The website contains all of the classic elements of a quiz - a series of multipl
 
  ## Features
 
+ **Existing Features**
+
+ **F01 Quiz Intro**
+
+ * The quiz introduction grabs the user's attention from the get go. The title's text automatically types across the screen when the page loads. This feature helps to enhance the look of the site and improves the overall user experience. It is extremely eye-catching and animated. The font is fun and informal and conveys the intended easy-going mood.
+
+ * The start button appears distinctly and allows the client to navigate to the quiz instantaneously.
+
+ * The bubblegum pink background is whimsical and lighthearted and  ensures the text on the screen is legible to the user.
+
+ ![Image](assets/images/quiz-intro.png)
+
  <a name="tech-used"></a>
 
  ## Technologies Used
