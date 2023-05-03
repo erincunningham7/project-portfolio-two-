@@ -104,6 +104,7 @@ const submitBtn = document.getElementById('submit');
 // Add Event Listener To Welcome Button To Hide Screen
 
 welcomeBtn.addEventListener('click', () => {
+    startTimer();
     welcome.classList.add('hide');
 });
 
@@ -150,10 +151,10 @@ function getUserAnswer() {
 // Add Event Listener To Welcome Button To Move To Next Quiz Question
 
 submitBtn.addEventListener('click', () => {
-    startTimer();
+    //startTimer();
     const answer = getUserAnswer();
     //current++;
-    startTimer();
+    //startTimer();
     // Check the user answer against the question answer
     if (answer === questions[current].correct) {
         score++;
@@ -163,9 +164,10 @@ submitBtn.addEventListener('click', () => {
 
     // Add If/Else Statement To Increment Score & Alert Score When Quiz Finishes
 
-    if (current < questions.length) {
+    if (current < questions.length) { 
         startQuiz();
     } else {
+        clearInterval(quizTimer);
         //alert(`Your score is ${score} s`);
         quiz.innerHTML = `
         <h1>Your score is ${score}</h1>
@@ -227,13 +229,17 @@ function startTimer() {
     quizTimer = setInterval(updateTime, 1000);
 }
 
+const timeContainer = document.getElementById('count')
+
 function updateTime() {
-    timer.textContent = time--;
-    //console.log(time)
+    time--;
+    //timer.textContent = time--;
+    //console.log(time);
+    timeContainer.innerHTML = `${time}`;
 
     if(time <= 0) {
-        clearInterval(time);
-        alert("TimeOver");
+        clearInterval(quizTimer);
+        //alert("TimeOver");
     }
 };
 
