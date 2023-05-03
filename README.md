@@ -64,11 +64,11 @@ The website contains all of the classic elements of a quiz - a series of multipl
 
 * When choosing a typography, I knew I had to have two different fonts. I wanted one font for the website's title, that was fun and endearing and I came across the [Fuzzy Bubbles font](https://fonts.google.com/specimen/Fuzzy+Bubbles) and chose to include it. 
 
-![Image]()
+![Image](assets/images/title-font.png)
 
 * For the rest of the quiz, specifically the quiz questions, I needed a font style that was more serious and legible. Given that the quiz has a timer, I wanted to make sure the user could read the questions and answers quickly and not be detered by a busy font. I found the [Lato font](https://fonts.google.com/specimen/Lato) and given it's simple style, I decided to choose it.
 
-![Image]()
+![Image](assets/images/question-font.png)
 
 
 *Wireframes*
