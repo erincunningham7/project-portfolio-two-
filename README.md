@@ -54,7 +54,7 @@ The website contains all of the classic elements of a quiz - a series of multipl
 
 *Colour Scheme*
 
-* When deciding what colours would suit the quiz, I researched [the colour feelings](https://99designs.com/blog/tips/how-color-impacts-emotions-and-behaviors/). I knew the colours had to be lighthearted and fun, hence why I chose the pink. The light purple envokes calm and soothing moods. I wanted the quiz to be challenging but at the same time enjoyable for the user and not too overwhelming. Adding the purple achieves this perfectly. 
+* When deciding what colours would suit the quiz, I researched [the colour feelings](https://99designs.com/blog/tips/how-color-impacts-emotions-and-behaviors/). I knew the colours had to be lighthearted and fun, hence why I chose the pink. The light purple envokes calm and soothing moods. I wanted the quiz to be challenging but at the same time enjoyable for the user and not too overwhelming. Adding the purple achieves this perfectly. The bright purples are energising colours and ensure the buttons stand out on the webpage.
 
 * I browsed [the coolors website](https://coolors.co/) to try and find a pink and purple palette that matched what I had envisioned for my website. When I couldn't find one I liked I made my own, that has the perfect shades to meet the tones I intended to add throughout the webpage.
 
