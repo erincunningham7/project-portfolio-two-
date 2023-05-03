@@ -94,6 +94,8 @@ The website contains all of the classic elements of a quiz - a series of multipl
 
 * [I used this free pattern picker to style the background of my quiz section](https://heropatterns.com/)
 
+* [I used the favicon generator to create my favicon](https://favicon.io/favicon-generator/)
+
 * I utilised O Reilly Javascript The Definitive Guide Seventh Edition Book to research certain topics for the quiz. 
 Chapter 7 Iterating Arrays pages 162-164
 Chapter 11 Timers Pages 323-324
