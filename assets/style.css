@@ -185,6 +185,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: linear-gradient(to bottom right, #ffafcc 30%, #ffc8dd);
   /*background-image: linear-gradient(to bottom right, #ffafcc 30%, #ffc8dd);*/
   color: #fff;
 }
@@ -195,11 +196,11 @@ body {
   letter-spacing: 20px;
 }
 
-.error-text {
+/*.error-text {
   font-size: larger;
   letter-spacing: 5px;
   padding-bottom: 10px;
-}
+}*/
 
 
 /* Start: Media Quries */
