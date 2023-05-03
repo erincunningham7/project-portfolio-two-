@@ -120,6 +120,10 @@ I have conducted the compulsory tests in order to ensure the website works effec
 
 ![Image]()
 
+* Results for Accessibility
+
+![Images](images/accessibility-test.png)
+
 **Browser Compatibility**
 
 Testing has been executed on the following browsers:
