@@ -118,11 +118,11 @@ I have conducted the compulsory tests in order to ensure the website works effec
 
 * Results for HTML
 
-![Image](images/html-validation.png)
+![Image](assets/images/html-validation.png)
 
 * Results for CSS
 
-![Image](images/css-validation.png)
+![Image](assets/images/css-validation.png)
 
 * Results for Javascript
 
@@ -130,7 +130,7 @@ I have conducted the compulsory tests in order to ensure the website works effec
 
 * Results for Accessibility
 
-![Images](images/accessibility-test.png)
+![Images](assets/images/accessibility-test.png)
 
 **Browser Compatibility**
 
