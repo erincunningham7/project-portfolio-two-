@@ -58,6 +58,10 @@ The website contains all of the classic elements of a quiz - a series of multipl
 
 ![Image]()
 
+* I browsed [the coolors website](https://coolors.co/) to try and find a pink and purple palette that matched what I had envisioned for my website. When I couldn't find one I liked I made my own, that has the perfect shades to meet the tones I intended to add throughout the webpage.
+
+![Image](assets/images/color-palette.png)
+
 *Typography*
 
 * When choosing a typography, I knew I had to have two different fonts. I wanted one font for the website's title, that was fun and endearing and I came across the [Fuzzy Bubbles font](https://fonts.google.com/specimen/Fuzzy+Bubbles) and chose to include it. 
@@ -95,6 +99,8 @@ The website contains all of the classic elements of a quiz - a series of multipl
 * [I used this free pattern picker to style the background of my quiz section](https://heropatterns.com/)
 
 * [I used the favicon generator to create my favicon](https://favicon.io/favicon-generator/)
+
+* [I used the coolors website to create my own colour palette](https://coolors.co/)
 
 * I utilised O Reilly Javascript The Definitive Guide Seventh Edition Book to research certain topics for the quiz. 
 Chapter 7 Iterating Arrays pages 162-164
