@@ -102,9 +102,9 @@ The website contains all of the classic elements of a quiz - a series of multipl
 
 * I utilised O Reilly Javascript The Definitive Guide Seventh Edition Book to research certain topics for the quiz. 
 
-Chapter 7 Iterating Arrays pages 162-164
+    1. Chapter 7 Iterating Arrays pages 162-164
 
-Chapter 11 Timers Pages 323-324
+    2. Chapter 11 Timers Pages 323-324
 
 
 
