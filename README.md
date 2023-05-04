@@ -1,4 +1,4 @@
-# Pop Culture Quiz
+# Erin's Pop Culture Quiz
 ## Index - Table Of Contents
 1. [General Information](#general-info)
 2. [User Experience & Design](#ux)
