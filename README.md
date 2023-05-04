@@ -211,6 +211,23 @@ Testing has been executed on the following browsers:
  4. Microsoft Edge Version 110.0.1587.63 (Official build) (64-bit)
 
  **Responsive Testing**
+
+ The website was tested on multiple screen sizes and thankfully it is fully responsive.
+
+1. Open browser and navigate to Erin's Pop Culture Quiz.
+2. Open the developer tools (right click and inspect).
+3. Set to responsive and decrease width to 320px
+4. Set the zoom to 60%
+5. Click and drag the responsive window to maximum width
+
+Expected:
+
+Website is responsive on every varying screen size. The text is not too big for the screen. The bubble pattern can still be seen on the quiz section.
+
+Actual:
+
+Website behaved as expected.
+
  
  **Accessibility Testing**
 
