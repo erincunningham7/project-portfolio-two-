@@ -90,6 +90,16 @@ The website contains all of the classic elements of a quiz - a series of multipl
 
  ![Image](assets/images/quiz-intro.png)
 
+ **F02 Timer**
+
+ * In order to make the quiz more challenging I decided to include a timer to the quiz section. The timer gives the user 60 seconds to complete the quiz. The font is easy to decipher for the quiz player.
+
+ ![Image](assets/images/quiz-timer.png)
+ 
+ * If the user runs out of time, they have the option to try again. The timer adds another entertaining aspect to the site.
+
+
+
  <a name="tech-used"></a>
 
  ## Technologies Used
