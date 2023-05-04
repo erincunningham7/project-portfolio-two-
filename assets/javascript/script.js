@@ -240,8 +240,8 @@ function updateTime() {
     if(time <= 0) {
         clearInterval(quizTimer);
         quiz.innerHTML = `
-        <h1>You have ran out of time try again</h1>
-        <button id = 'submit' onclick= 'location.reload()'>Reload</button>
+        <h1>You have ran out of time, don't worry try again!</h1>
+        <button id = 'submit' onclick= 'location.reload()'>Try Again</button>
         `
     }
 };
