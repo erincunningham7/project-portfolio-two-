@@ -316,7 +316,7 @@ I decided to scrap the original project in the end and start from scratch. I res
 
 1. git status - This command displayed the modified files that needed to be pushed to the remote repository.
 
-2. git add <filename> - This command was used to add the files to the staging area before they are committed.
+2. git add . - This command was used to add the modified files to the staging area before they are committed.
 
 3. git commit -m “commit message” - This command was utilised to commit changes to the local repository queue ready for the final step.
 
