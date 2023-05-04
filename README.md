@@ -175,6 +175,12 @@ The website contains all of the classic elements of a quiz - a series of multipl
 
 * [Techsini aided me in creating the collage of my webpage on multiple devices](https://techsini.com/multi-mockup/index.php)
 
+* [I used this javascript validator](https://www.htmlstrip.com/javascript-validator)
+
+* [I used this css validator](https://jigsaw.w3.org/css-validator/validator.html.en)
+
+* [I used this html validator](https://validator.w3.org/)
+
 * I utilised O Reilly Javascript The Definitive Guide Seventh Edition Book to research certain topics for the quiz. 
 
     1. Chapter 7 Iterating Arrays pages 162-164
@@ -199,7 +205,7 @@ I have conducted the compulsory tests in order to ensure the website works effec
 
 * Results for Javascript
 
-![Image]()
+![Image](assets/images/js-validator.png)
 
 **Browser Compatibility**
 
