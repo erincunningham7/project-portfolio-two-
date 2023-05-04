@@ -170,8 +170,8 @@ submitBtn.addEventListener('click', () => {
         clearInterval(quizTimer);
         //alert(`Your score is ${score} s`);
         quiz.innerHTML = `
-        <h1>Your score is ${score}</h1>
-        <button id = 'submit' onclick= 'location.reload()'>Reload</button>
+        <h1>Your score is ${score}!</h1>
+        <button id = 'submit' onclick= 'location.reload()'>Start Again</button>
         `
     };
 });
