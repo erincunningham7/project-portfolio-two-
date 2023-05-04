@@ -140,6 +140,16 @@ The website contains all of the classic elements of a quiz - a series of multipl
 
 ![Image](assets/favicon/favicon.ico)
 
+**F06 404 Error Page**
+
+* The error 404 page was added if it so happens that the site link is broken.
+
+* It has a button that gives the user the option to return to the homepage.
+
+* It is styled in correspondance with the overall site design. It contains the fun bubble pattern background that appears in the quiz section.
+
+![Image](assets/images/error-404.png)
+
 
  <a name="tech-used"></a>
 
