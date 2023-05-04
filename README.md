@@ -120,7 +120,7 @@ The website contains all of the classic elements of a quiz - a series of multipl
 
 * The background of the quiz section enforces the carefree, happy mood that I wanted users to feel when they play the quiz. The bubble pattern is fun and aesthetically pleasing to look at.
 
-![Image](assets/images/)
+![Image](assets/images/bubble-bg.png)
 
 * The content of the quiz evidently relates to the title. All the questions and answers test the user's celeb knowledge and stay on topic throughout.
 
