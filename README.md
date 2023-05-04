@@ -15,7 +15,7 @@ This is a challenging quiz that tests the clients pop culture knowledge. When de
 
 The website contains all of the classic elements of a quiz - a series of multiple choice answers, a timer, and a user score that displays once all of the questions have been answered.
 
-![Image]()
+![Image](assets/images/all-devices-quiz.png)
 
 <a name="ux"></a>
 
@@ -173,13 +173,13 @@ The website contains all of the classic elements of a quiz - a series of multipl
 
 * [I used the coolors website to create my own colour palette](https://coolors.co/)
 
+* [Techsini aided me in creating the collage of my webpage on multiple devices](https://techsini.com/multi-mockup/index.php)
+
 * I utilised O Reilly Javascript The Definitive Guide Seventh Edition Book to research certain topics for the quiz. 
 
     1. Chapter 7 Iterating Arrays pages 162-164
 
     2. Chapter 11 Timers Pages 323-324
-
-
 
  <a name="testing"></a>
 
