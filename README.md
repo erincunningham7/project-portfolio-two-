@@ -84,6 +84,8 @@ The website contains all of the classic elements of a quiz - a series of multipl
 
  * The quiz introduction grabs the user's attention from the get go. The title's text automatically types across the screen when the page loads. This feature helps to enhance the look of the site and improves the overall user experience. It is extremely eye-catching and animated. The font is fun and informal and conveys the intended easy-going mood.
 
+ * I made the decision to include my name in the title as the quiz itself is farcical, it adds to the free-and-easy feeling of the quiz.
+
  * The start button appears distinctly and allows the client to navigate to the quiz instantaneously.
 
  * The bubblegum pink background is whimsical and lighthearted and  ensures the text on the screen is legible to the user.
@@ -123,6 +125,12 @@ The website contains all of the classic elements of a quiz - a series of multipl
 ![Image](assets/images/bubble-bg.png)
 
 * The content of the quiz evidently relates to the title. All the questions and answers test the user's celeb knowledge and stay on topic throughout.
+
+**F04 Score**
+
+* Once the player has answered all questions they recieve their score once the quiz ends. The user has the option to restard the quiz if they like.
+
+![Image]()
 
 
  <a name="tech-used"></a>
