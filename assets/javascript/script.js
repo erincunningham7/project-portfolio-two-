@@ -83,8 +83,6 @@ const questions = [
 ]
 // End: Quiz Questions
 
-//console.log(questions.length);
-
 // Bring In Elements From The Dom
 
 const welcome = document.getElementById('welcome');
@@ -98,9 +96,9 @@ const cText = document.getElementById('c_text');
 const dText = document.getElementById('d_text');
 const curr = document.getElementById('current');
 const submitBtn = document.getElementById('submit');
+const timer = document.getElementById('timer');
+const timeContainer = document.getElementById('count');
 
-
-//console.log(welcome)
 // Add Event Listener To Welcome Button To Hide Screen
 
 welcomeBtn.addEventListener('click', () => {
@@ -120,7 +118,7 @@ startQuiz();
 function startQuiz() {
 
     // Unselect each input if it is checked
-    deselectAnswerInput()
+    deselectAnswerInput();
 
     const currentText = questions[current];
 
@@ -138,29 +136,26 @@ function getUserAnswer() {
     let answer;
 
     answerElements.forEach(answerElement => {
-        // Will be either true or fals
+        // Will be either true or false
         if (answerElement.checked) {
             // If true make answer equal to the answer elements id
             answer = answerElement.id
         }
-    })
+    });
 
     return answer;
-}
+};
 
 // Add Event Listener To Welcome Button To Move To Next Quiz Question
 
 submitBtn.addEventListener('click', () => {
-    //startTimer();
     const answer = getUserAnswer();
-    //current++;
-    //startTimer();
     // Check the user answer against the question answer
     if (answer === questions[current].correct) {
         score++;
-    }
+    };
 
-    current++
+    current++;
 
     // Add If/Else Statement To Increment Score & Alert Score When Quiz Finishes
 
@@ -168,7 +163,6 @@ submitBtn.addEventListener('click', () => {
         startQuiz();
     } else {
         clearInterval(quizTimer);
-        //alert(`Your score is ${score} s`);
         quiz.innerHTML = `
         <h1>Your score is ${score}!</h1>
         <button id = 'submit' onclick= 'location.reload()'>Start Again</button>
@@ -184,14 +178,11 @@ function deselectAnswerInput() {
     })
 };
 
-
 // Elements for welcome text header
 const welcomeHeader = document.getElementById('welcome-heading');
 const welcomeHeaderText = "Erin's Pop Culture Quiz";
 let textIndex = 1;
 let textSpeed = 300;
-//console.log(welcomeHeaderText[textIndex]);
-//console.log(welcomeHeader)
 
 writeHeadingText();
 
@@ -212,29 +203,15 @@ function writeHeadingText() {
 };
 
 // Timer code
-const timer = document.getElementById('timer');
 let time = 59;
-// let quizTimer = setInterval( () => {
-//  time--;
-//  if (time < 0) {
-//     clearInterval(time);
-    
-//  }
-//  console.log(time);
-// }, 1000);
-
 let quizTimer;
 
 function startTimer() {
     quizTimer = setInterval(updateTime, 1000);
 }
 
-const timeContainer = document.getElementById('count')
-
 function updateTime() {
     time--;
-    //timer.textContent = time--;
-    //console.log(time);
     timeContainer.innerHTML = `${time}`;
 
     if(time <= 0) {
@@ -243,14 +220,13 @@ function updateTime() {
         <h1>You have ran out of time, don't worry try again!</h1>
         <button id = 'submit' onclick= 'location.reload()'>Try Again</button>
         `
-    }
+    };
 };
 
 // Create ripple effect for the submit btn
 let rippleEffect;
 
 submitBtn.addEventListener('mouseenter', (e) => {
-  //console.log('I have been entered');
   const left = e.clientX - e.target.getBoundingClientRect().left;
   const top = e.clientY - e.target.getBoundingClientRect().top;
 
