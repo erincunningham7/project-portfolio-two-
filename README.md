@@ -130,7 +130,7 @@ The website contains all of the classic elements of a quiz - a series of multipl
 
 * Once the player has answered all questions they recieve their score once the quiz ends. The user has the option to restard the quiz if they like.
 
-![Image]()
+![Image](assets/images/score.png)
 
 
  <a name="tech-used"></a>
