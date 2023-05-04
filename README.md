@@ -98,7 +98,7 @@ The website contains all of the classic elements of a quiz - a series of multipl
  
  * If the user runs out of time, they have the option to try again. The timer adds another entertaining aspect to the site.
 
-
+![Image](assets/images/try-again.png)
 
  <a name="tech-used"></a>
 
