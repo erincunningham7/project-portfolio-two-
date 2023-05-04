@@ -191,10 +191,6 @@ I have conducted the compulsory tests in order to ensure the website works effec
 
 ![Image]()
 
-* Results for Accessibility
-
-![Images](assets/images/accessibility-test.png)
-
 **Browser Compatibility**
 
 Testing has been executed on the following browsers:
@@ -205,6 +201,66 @@ Testing has been executed on the following browsers:
  4. Microsoft Edge Version 110.0.1587.63 (Official build) (64-bit)
 
  **Responsive Testing**
+ 
+ **Accessibility Testing**
+
+ Testing was centred around the following:
+
+ * The website contains no contrast errors that may affect visually impaired users.
+
+* The language of the page has been identified.
+
+Accessibility Issues:
+
+1. Contrast errors occured in the Start and Submit buttons. Once this problem was established I darkened the background colour of the buttons.
+
+* Results for Web Accessibility Evaluation
+
+![Images](assets/images/accessibility-test.png)
+
+**Functional Testing**
+
+*Start Button*
+
+* Testing was ran on the start button to insure the button does it's intended task - hides the intro section and starts the quiz timer. This was assessed by using console.log to ensure the correct element had been taken from the dom, and then going directly to the site to press the start button.
+
+* The start button worked as intended.
+
+*Storing User Input*
+
+* In order for the quiz to work correctly, it was important that the user's inputted answers are being stored correctly. Console log was used yet again, to ensure the answer being clicked was being documented.
+
+* The user input was being stored correctly.
+
+*Submit Button*
+
+* The purpose of the submit button is to move to the next question and check the user's answers. Console log aided me yet again, to check the selected answer was being stored and the score updating accordingly. I also clicked the button on the live site to make sure it moved to the next question and eventually to the score section.
+
+* The submit button was worked as intended.
+
+*Try Again Button*
+
+* When the timer runs out, the user has an option to reload the quiz. Testing was carried out on this button by letting the timer run out on the live site, and clicking the button once it appears to see if it takes the user back to the welcome introduction.
+
+* The try again button worked as intended.
+
+*Start Again Button*
+
+* When the user finishes the quiz and has submitted all answers on time, their score is displayed but they have the option to start the quiz again. In order to test this button I quickly answered the quiz questions and once I had recieved my score, pressed the button to see if it takes the user back to the welcome introduction.
+
+* The start again button worked as intended.
+
+*Timer*
+
+* The timer required considerable tedious testing to try and implement it correctly. To assess it's functionality, I would press the Start button to begin the quiz, watch the timer as it decreases and see if it stops at 0.
+
+* The timer did not work as intended, so I checked over my javascript code and realised the function was called in the wrong place and the clearInterval needed to be called with the correct parameter.
+
+*Score*
+
+* The score needs to update according to the user's input. To check this was working appropriately I would answer the questions and alert the score once the quiz had ended.
+
+* The score worked as intended.
 
 
 **Original Design Concept**
@@ -220,22 +276,6 @@ I decided to scrap the original project in the end and start from scratch. I res
 [This youtube course was also very insightful](https://youtu.be/jS4aFq5-91M)
 
 [The first scrapped project can be found here](https://erincunningham7.github.io/project-portfolio-two-original/)
-
-
-/*Testing items
-
-start button - console.log
-when a user clicked on an input that it was being stored - console log
-submit btn - check user answer
-reload quiz btn
-timer
-check score was being stored 
-test timer */
-
-
-
-
- 
 
 <a name="deployment"></a>
 
