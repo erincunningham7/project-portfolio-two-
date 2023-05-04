@@ -159,7 +159,7 @@ submitBtn.addEventListener('click', () => {
 
     // Add If/Else Statement To Increment Score & Alert Score When Quiz Finishes
 
-    if (current < questions.length) { 
+    if (current < questions.length) {
         startQuiz();
     } else {
         clearInterval(quizTimer);
@@ -174,7 +174,6 @@ submitBtn.addEventListener('click', () => {
 function deselectAnswerInput() {
     answerElements.forEach(answerElement => {
         answerElement.checked = false;
-
     })
 };
 
@@ -214,7 +213,7 @@ function updateTime() {
     time--;
     timeContainer.innerHTML = `${time}`;
 
-    if(time <= 0) {
+    if (time <= 0) {
         clearInterval(quizTimer);
         quiz.innerHTML = `
         <h1>You have ran out of time, don't worry try again!</h1>
@@ -227,18 +226,18 @@ function updateTime() {
 let rippleEffect;
 
 submitBtn.addEventListener('mouseenter', (e) => {
-  const left = e.clientX - e.target.getBoundingClientRect().left;
-  const top = e.clientY - e.target.getBoundingClientRect().top;
+    const left = e.clientX - e.target.getBoundingClientRect().left;
+    const top = e.clientY - e.target.getBoundingClientRect().top;
 
-  rippleEffect = document.createElement('div');
-  rippleEffect.classList.add('ripple');
-  rippleEffect.style.left = `${left}px`;
-  rippleEffect.style.top = `${top}px`;
-  submitBtn.prepend(rippleEffect);
+    rippleEffect = document.createElement('div');
+    rippleEffect.classList.add('ripple');
+    rippleEffect.style.left = `${left}px`;
+    rippleEffect.style.top = `${top}px`;
+    submitBtn.prepend(rippleEffect);
 });
 
 submitBtn.addEventListener('mouseleave', () => {
-  submitBtn.removeChild(rippleEffect);
+    submitBtn.removeChild(rippleEffect);
 });
 
 
