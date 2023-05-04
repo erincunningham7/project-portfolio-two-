@@ -243,6 +243,10 @@ body {
       width: 300px;
       height: 80vh;
   }
+
+  .error-text {
+    font-size: 15px;
+  }
 }
 
 /* End: Media  Quries */
