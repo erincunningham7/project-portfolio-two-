@@ -211,10 +211,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(to bottom right, #ffafcc 30%, #ffc8dd);
   /*background-image: linear-gradient(to bottom right, #ffafcc 30%, #ffc8dd);*/
   color: #fff;
-  z-index: 12;
 }
 
 .error-container h1 {
@@ -223,11 +221,12 @@ body {
   letter-spacing: 20px;
 }
 
-/*.error-text {
-  font-size: larger;
+.error-text {
+  font-weight: larger;
+  font-size: 80px;
   letter-spacing: 5px;
-  padding-bottom: 10px;
-}*/
+  padding-bottom: 20px;
+}
 
 
 /* Start: Media Quries */
