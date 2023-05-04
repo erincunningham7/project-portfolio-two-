@@ -1,4 +1,8 @@
+/*Google Fonts Link*/
+
 @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Lato:wght@300;400;700&display=swap');
+
+/*Important styles for all elements*/
 
 * {
   padding: 0;
@@ -6,9 +10,13 @@
   box-sizing: border-box;
 }
 
+/*Default font size in browser is 16px, 62.5% of that is 10px, converting pixels to rem becomes easier*/
+
 html {
   font-size: 62.5%;
 }
+
+/*Body styles*/
 
 body {
   position: relative;
@@ -20,6 +28,8 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+/*Style welcome container*/
 
 .welcome-container {
   position: absolute;
@@ -36,9 +46,13 @@ body {
   z-index: 12;
 }
 
+/*Class list hide added to welcome container for future use in script.js*/
+
 .welcome-container.hide {
   display: none;
 }
+
+/*Style font on title of website*/
 
 .welcome-heading {
   font-family: 'Fuzzy Bubbles', cursive;
@@ -47,11 +61,17 @@ body {
   margin-bottom: 2rem;
 }
 
+/*Style welcome paragraph*/
+
+.welcome-text {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+/*Style quiz container*/
+
 .container {
-  /*position: absolute;
-  top: 0;
-  left: 0;
-  /*width: 100%;*/
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -62,14 +82,9 @@ body {
   box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.3);
   width: 600px;
   overflow: hidden;
-  /*z-index: 10;*/
 }
 
-.welcome-text {
-  font-size: 3rem;
-  margin-bottom: 2rem;
-  text-transform: uppercase;
-}
+/*Style start and submit buttons*/
 
 .welcome-btn,
 .submit-btn {
@@ -116,6 +131,7 @@ body {
   transition: all 0.1s 0.1s linear;
 }
 
+/*Style elements of quiz section*/
 
 .quiz-header {
   padding: 4rem;
@@ -135,7 +151,6 @@ body {
 .question-item {
   margin: 1.6rem 0;
   font-size: 1.6rem;
-  /* padding: 2rem; */
   border-radius: 11px;
   display: flex;
   border: 1px solid transparent;
@@ -158,20 +173,9 @@ body {
   padding: 2rem;
   border-radius: 11px;
   cursor: pointer;
-  /* margin-left: 1rem; */
-}
-
-/*.question-item label {
-  cursor: pointer;
-  margin-left: 1rem;
 }
 
 .question-item:hover {
-  background-color: #ddd;
-}*/
-
-.question-item:hover {
-  /* background-color: #ddd; */
   border-color: rgb(199, 2, 199);
   color: rgb(199, 2, 199);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
@@ -202,6 +206,8 @@ body {
   }
 } 
 
+/*Style 404.html page*/
+
 .error-container {
   top: 0;
   left: 0;
@@ -211,7 +217,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /*background-image: linear-gradient(to bottom right, #ffafcc 30%, #ffc8dd);*/
   color: #fff;
 }
 
@@ -227,7 +232,8 @@ body {
 }
 
 
-/* Start: Media Quries */
+/*Start: Media Queries*/
+
 @media screen and (max-width: 900px) {
   html {
     font-size: 50%;
@@ -249,4 +255,4 @@ body {
   }
 }
 
-/* End: Media  Quries */
+/*End: Media Queries*/
