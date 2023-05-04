@@ -77,7 +77,7 @@ const questions = [
         a: 'Never Gonna Give You Up',
         b: 'Walking On Sunshine',
         c: 'Video Killed The Radio Star',
-        d: 'Highway To Hello',
+        d: 'Highway To Hell',
         correct: 'c'
     }
 ]

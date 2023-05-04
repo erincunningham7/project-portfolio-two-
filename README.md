@@ -132,6 +132,14 @@ The website contains all of the classic elements of a quiz - a series of multipl
 
 ![Image](assets/images/score.png)
 
+**F05 Favicon**
+
+* The favicon for this website utilises the bubblegum pink that is visible throughout the quiz. The "POP" font is amusing and enjoyable. 
+
+* The use of this favicon enables users to locate the website quickly, as it appears on bookmarks, history archives, browser tabs etc. and as a result increase user engagement.
+
+![Image](assets/favicon/favicon.ico)
+
 
  <a name="tech-used"></a>
 
@@ -235,7 +243,7 @@ test timer */
 
  *Version Control*
 
- * The site was created using the Code ASnywhere editor and pushed to github to the remote repository 'project-portfolio-two-'.
+ * The site was created using the Code Anywhere editor and pushed to github to the remote repository 'project-portfolio-two-'.
 
  * The following git commands were utilised regularly throughout development to push code to the remote repository:
 
