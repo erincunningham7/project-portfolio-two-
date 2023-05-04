@@ -222,9 +222,7 @@ body {
 }
 
 .error-text {
-  font-weight: large;
   font-size: 25px;
-  letter-spacing: 5px;
   padding-bottom: 20px;
 }
 
