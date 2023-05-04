@@ -222,8 +222,8 @@ body {
 }
 
 .error-text {
-  font-weight: larger;
-  font-size: 80px;
+  font-weight: large;
+  font-size: 50px;
   letter-spacing: 5px;
   padding-bottom: 20px;
 }
