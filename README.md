@@ -100,6 +100,31 @@ The website contains all of the classic elements of a quiz - a series of multipl
 
 ![Image](assets/images/try-again.png)
 
+**F03 Quiz Questions & Answers**
+
+* The quiz section displays the ten chosen questions and answers in a clear, legible font. The user has a choice of four possible answers.
+
+![Image](assets/images/question-answers.png)
+
+* This section has interactive elements to engage the client and make the quiz itself more enjoyable. When the user hovers over an answer, a purple border appears around said answer, along with the text turning purple too. The chosen colour coincide with the website's colour palette.
+
+![Image](assets/images/answer-highlight.png)
+
+* When the client clicks their chosen answer, another interactive element appears. The background of the answer turns purple and the text changes to white. This was implemented to keep the user engaged and stay on the site for longer.
+
+![Image](assets/images/chosen-answer.png)
+
+* The submit button moves users seemlessly to the next question. It contains another interactive feature, as the mouse hovers over the button, a wave of pink overcomes the button and the text "Submit" changes to black. 
+
+![Image](assets/images/)
+
+* The background of the quiz section enforces the carefree, happy mood that I wanted users to feel when they play the quiz. The bubble pattern is fun and aesthetically pleasing to look at.
+
+![Image](assets/images/)
+
+* The content of the quiz evidently relates to the title. All the questions and answers test the user's celeb knowledge and stay on topic throughout.
+
+
  <a name="tech-used"></a>
 
  ## Technologies Used
