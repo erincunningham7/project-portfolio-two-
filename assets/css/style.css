@@ -133,6 +133,13 @@ body {
 
 /*Style elements of quiz section*/
 
+.info-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  color: #ccc;
+}
+
 .quiz-header {
   padding: 4rem;
 }
@@ -141,7 +148,8 @@ body {
   padding: 1rem;
   text-align: center;
   margin: 0;
-  font-size: 2rem;
+  font-size: 2.5rem;
+  color: #888;
 }
 
 .questions {
