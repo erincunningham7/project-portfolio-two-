@@ -94,19 +94,19 @@ I proudly extended my current CSS skills. Considering I struggled a lot in my pr
 
  **F01 Quiz Intro**
 
- * The quiz introduction grabs the user's attention from the get go. The title's text automatically types across the screen when the page loads. This feature helps to enhance the look of the site and improves the overall user experience. It is extremely eye-catching and animated. The font is fun and informal and conveys the intended easy-going mood.
+ * The quiz introduction grabs the user's attention from the get go. The title's text automatically types across the screen when the page loads. This feature helps to enhance the look of the site and improves the overall user experience. It is extremely eye-catching and animated. The font is fun and informal and conveys the intended easy-going mood. On mobile, the title is smaller, as the long title takes up too much screen space, the smaller title works better and without the animation.
 
  * I made the decision to include my name in the title as the quiz itself is farcical, it adds to the free-and-easy feeling of the quiz.
 
- * The start button appears distinctly and allows the client to navigate to the quiz instantaneously.
+ * The start button appears distinctly and allows the client to navigate to the quiz instantaneously. When the client hovers over the button it displays an interactive hover element.
 
  * The bubblegum pink background is whimsical and lighthearted and  ensures the text on the screen is legible to the user.
 
  ![Image](assets/images/quiz-intro.png)
 
- **F02 Timer**
+ **F02 Timer & Question Counter**
 
- * In order to make the quiz more challenging I decided to include a timer to the quiz section. The timer gives the user 60 seconds to complete the quiz. The font is easy to decipher for the quiz player.
+ * In order to make the quiz more challenging I decided to include a timer to the quiz section. The timer gives the user 60 seconds to complete the quiz. The question counter displays the current question number out of ten. They are both informative pieces of information but as they are tertiary in relation to visual hierarchy they appear lighter in colour compared to the question and answer font.
 
  ![Image](assets/images/quiz-timer.png)
  
@@ -128,11 +128,7 @@ I proudly extended my current CSS skills. Considering I struggled a lot in my pr
 
 ![Image](assets/images/chosen-answer.png)
 
-* The submit button moves users seemlessly to the next question. It contains another interactive feature, as the mouse hovers over the button, a wave of pink overcomes the button and the text "Submit" changes to black. 
-
-![Image](assets/images/)
-
-* The background of the quiz section enforces the carefree, happy mood that I wanted users to feel when they play the quiz. The bubble pattern is fun and aesthetically pleasing to look at.
+* The background of the quiz section enforces the carefree, happy mood that I wanted users to feel when they play the quiz. The bubble pattern is fun and aesthetically pleasing to look at, and looks pretty with the opacified container.
 
 ![Image](assets/images/bubble-bg.png)
 
@@ -141,6 +137,8 @@ I proudly extended my current CSS skills. Considering I struggled a lot in my pr
 **F04 Score**
 
 * Once the player has answered all questions they recieve their score once the quiz ends. The user has the option to restard the quiz if they like.
+
+* The start again button is interactive too, like the start button seen in the welcome introduction of the quiz.
 
 ![Image](assets/images/score.png)
 
@@ -161,6 +159,12 @@ I proudly extended my current CSS skills. Considering I struggled a lot in my pr
 * It is styled in correspondance with the overall site design. It contains the fun bubble pattern background that appears in the quiz section.
 
 ![Image](assets/images/error-404.png)
+
+**F07 Submit Button**
+
+* The submit button moves users seemlessly to the next question. It contains a special interactive feature that could easily be overlooked. When the user's mouse glides over the button, depending on what side they enter from, the colour transforms effortlessly to a paler purple colour, with the text turning black. The effect is subtle but extremely satisfying. 
+
+![Image](assets/images/submit-btn.png)
 
 
  <a name="tech-used"></a>
