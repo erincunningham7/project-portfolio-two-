@@ -98,6 +98,7 @@ const curr = document.getElementById('current');
 const submitBtn = document.getElementById('submit');
 const timer = document.getElementById('timer');
 const timeContainer = document.getElementById('count');
+const questionNumber = document.getElementById('current-question-number');
 
 // Add Event Listener To Welcome Button To Hide Screen
 
@@ -129,7 +130,11 @@ function startQuiz() {
     bText.innerText = currentText.b;
     cText.innerText = currentText.c;
     dText.innerText = currentText.d;
-}
+
+    // Insert The Current Question Number Into The Dom
+
+    questionNumber.textContent = `Question: ${current + 1} / ${questions.length}`;
+};
 
 // Get the user input from the radio btns
 function getUserAnswer() {
@@ -239,7 +244,3 @@ submitBtn.addEventListener('mouseenter', (e) => {
 submitBtn.addEventListener('mouseleave', () => {
     submitBtn.removeChild(rippleEffect);
 });
-
-
-
-
