@@ -77,11 +77,19 @@ I proudly extended my current CSS skills. Considering I struggled a lot in my pr
 
 *Wireframes*
 
+* Quiz Intro Wireframe
+
 ![Image](assets/images/quiz-intro-wireframe.png)
+
+* Quiz Container Wireframe
 
 ![Image](assets/images/quiz-container-wireframe.png)
 
+* Tablet Wireframe
+
 ![Image](assets/images/tablet-wireframe.png)
+
+* Mobile Wireframe
 
 ![Image](assets/images/mobile-wireframe.png)
 
