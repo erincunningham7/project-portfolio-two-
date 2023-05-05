@@ -77,6 +77,14 @@ I proudly extended my current CSS skills. Considering I struggled a lot in my pr
 
 *Wireframes*
 
+![Image](assets/images/quiz-intro-wireframe.png)
+
+![Image](assets/images/quiz-container-wireframe.png)
+
+![Image](assets/images/tablet-wireframe.png)
+
+![Image](assets/images/mobile-wireframe.png)
+
 
   <a name="features"></a>
 
