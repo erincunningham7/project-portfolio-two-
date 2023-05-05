@@ -48,9 +48,9 @@ I proudly extended my current CSS skills. Considering I struggled a lot in my pr
 
 *Imagery*
 
-* When brainstorming ideas for this project, I decided that imagery would not play an important part in this project. I wanted a simple, clean layout, ensuring users could focus on the quiz and not be distracted by loud, brash images.
+* When brainstorming ideas for this project, I decided that imagery would not play a major part in this project. I wanted a simple, clean layout, ensuring users could focus on the quiz and not be distracted by loud, brash images.
 
-* So instead of using a background image, I opted for a pattern instead. I found [this website](https://heropatterns.com/) and came across the chosen pattern. The pattern is bubbly and fun and fits the entertainment element of the website. It is only visible when playing the quiz and it is discreet yet quite pretty.
+* So instead of using a background image, I opted for a pattern instead. I found [this website](https://heropatterns.com/) and came across the chosen pattern. The pattern is bubbly and fun and fits the entertainment element of the website. It is only visible when playing the quiz and in the 404 error page. It is discreet yet quite pretty.
 
 * The background is a bubble-gum pink which feels playful and fun. The pale purple compliments the pink and is not too distracting for the user, yet it is a nice touch.
 
@@ -58,7 +58,7 @@ I proudly extended my current CSS skills. Considering I struggled a lot in my pr
 
 *Colour Scheme*
 
-* When deciding what colours would suit the quiz, I researched [the colour feelings](https://99designs.com/blog/tips/how-color-impacts-emotions-and-behaviors/). I knew the colours had to be lighthearted and fun, hence why I chose the pink. The light purple envokes calm and soothing moods. I wanted the quiz to be challenging but at the same time enjoyable for the user and not too overwhelming. Adding the purple achieves this perfectly. The bright purples are energising colours and ensure the buttons stand out on the webpage.
+* When deciding what colours would suit the quiz, I researched [the colour feelings](https://99designs.com/blog/tips/how-color-impacts-emotions-and-behaviors/). I knew the colours had to be lighthearted and fun, hence why I chose the pink. The light purple envokes calm and soothing moods. I wanted the quiz to be challenging but at the same time enjoyable for the user and not too overwhelming. Adding the purple achieves this perfectly. The bright purples are energising colours and pop nicely when hovered over.
 
 * I browsed [the coolors website](https://coolors.co/) to try and find a pink and purple palette that matched what I had envisioned for my website. When I couldn't find one I liked I made my own, that has the perfect shades to meet the tones I intended to add throughout the webpage.
 
