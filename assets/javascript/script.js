@@ -231,12 +231,17 @@ function updateTime() {
 let rippleEffect;
 
 submitBtn.addEventListener('mouseenter', (e) => {
+    // Get left distance of mouse from edge of browser
     const left = e.clientX - e.target.getBoundingClientRect().left;
+    // Get top distance of mouse from edge of browser
     const top = e.clientY - e.target.getBoundingClientRect().top;
 
+    // Create ripple effect div to apply styles to
     rippleEffect = document.createElement('div');
     rippleEffect.classList.add('ripple');
+    // Position left
     rippleEffect.style.left = `${left}px`;
+    // Position top
     rippleEffect.style.top = `${top}px`;
     submitBtn.prepend(rippleEffect);
 });
