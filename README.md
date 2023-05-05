@@ -353,7 +353,3 @@ I decided to scrap the original project in the end and start from scratch. I res
 5. Type git clone copied-git-url into the IDE terminal.
 
 6. The project will successfully be cloned on your local machine for use.
-
-
-
-For the submit button, 
