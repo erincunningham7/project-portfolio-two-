@@ -197,11 +197,23 @@ I proudly extended my current CSS skills. Considering I struggled a lot in my pr
 
 * [I used this html validator](https://validator.w3.org/)
 
+* [I researched visual hierarchy to give my website a cleaner finish than my previous project](https://www.interaction-design.org/literature/topics/visual-hierarchy)
+
+* [I searched the web for mouseenter and mouseleave events to make my submit button](https://www.telerik.com/blogs/angular-basics-how-to-use-angular-mouseenter-event#:~:text=The%20mouseleave%20event%20is%20triggered%20when%20our%20mouse,to%20%E2%80%9Cbar%2C%E2%80%9D%20we%20see%20that%20it%20turns%20green.)
+
+* [This website helped me understand how to create the effect on the submit button](https://medium.com/weekly-webtips/create-button-ripple-effect-with-pure-css-and-javascript-d862cad48f54)
+
 * I utilised O Reilly Javascript The Definitive Guide Seventh Edition Book to research certain topics for the quiz. 
 
     1. Chapter 7 Iterating Arrays pages 162-164
 
     2. Chapter 11 Timers Pages 323-324
+
+* I referenced Sams Teach Yourself Web Development In One Hour Book too, particularly the following:
+
+    1. Lesson 12 Designing Forms
+    
+    2. Lesson 22 Designing For Mobile Web
 
  <a name="testing"></a>
 
