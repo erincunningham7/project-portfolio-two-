@@ -133,6 +133,37 @@ body {
   transition: all 0.1s 0.1s linear;
 }
 
+.game-over-heading {
+font-size: 3rem;
+margin: 10rem 5rem;
+text-transform: uppercase;
+line-height: 1.5;
+padding: 0 2rem;
+}
+
+.game-over-btn {
+padding: 2rem 4rem;
+border-radius: 11px;
+border: 2px solid #9046cf;
+color: #222;
+font-family: inherit;
+font-size: 1.6rem;
+text-transform: uppercase;
+margin-bottom: 5rem;
+transition:all 0.3s ease;
+background-color: #fff;
+cursor: pointer;
+}
+
+.game-over-btn:hover {
+background-color: #9046cf;
+color: #fff;
+}
+
+.game-over-btn:active {
+  transform: scale(0.98);
+}
+
 /*Style elements of quiz section*/
 
 .info-container {

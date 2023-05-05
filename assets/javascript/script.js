@@ -169,8 +169,8 @@ submitBtn.addEventListener('click', () => {
     } else {
         clearInterval(quizTimer);
         quiz.innerHTML = `
-        <h1>Your score is ${score}!</h1>
-        <button id = 'submit' onclick= 'location.reload()'>Start Again</button>
+        <h1 class="game-over-heading">Your score is ${score}!</h1>
+        <button id = 'submit' onclick= 'location.reload()' class="game-over-btn">Start Again</button>
         `
     };
 });
@@ -221,8 +221,8 @@ function updateTime() {
     if (time <= 0) {
         clearInterval(quizTimer);
         quiz.innerHTML = `
-        <h1>You have ran out of time, don't worry try again!</h1>
-        <button id = 'submit' onclick= 'location.reload()'>Try Again</button>
+        <h1 class="game-over-heading">You have ran out of time, don't worry try again!</h1>
+        <button id = 'submit' onclick= 'location.reload()' class="game-over-btn">Try Again</button>
         `
     };
 };
