@@ -58,14 +58,13 @@ body {
   font-family: 'Fuzzy Bubbles', cursive;
   font-size: 7.2rem;
   letter-spacing: -5px;
-  margin-bottom: 2rem;
 }
 
 /*Style welcome paragraph*/
 
 .welcome-text {
-  font-size: 3rem;
-  margin-bottom: 2rem;
+  font-size: 3.5rem;
+  margin: 4rem 0;
   text-transform: uppercase;
 }
 
@@ -93,7 +92,6 @@ body {
 
 .welcome-btn,
 .submit-btn {
-  /*background-color: #cdb4db;*/
   background-color: #9046cf;
   color: #fff;
   font-family: inherit;
@@ -103,16 +101,11 @@ body {
   padding: 1.9rem;
   border-radius: 11px;
   display: block;
-  /* width: 100%; */
   cursor: pointer;
   overflow: hidden;
 }
 
 .welcome-btn {
-  /*width: 10rem;
-  padding-top: 0.9rem;
-  padding-bottom: 0.9rem;
-  font-size: 2rem;*/
   padding: 2rem 4rem;
   border-radius: 11px;
   border: 2px solid #9046cf;
@@ -123,7 +116,6 @@ body {
   margin-bottom: 5rem;
   transition: all 0.3s ease;
   background-color: #fff;
-  /* width: 10rem; */
   cursor: pointer;
 }
 
@@ -308,7 +300,30 @@ body {
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width : 745px) {
+@media screen and (max-width: 600px) {
+
+.welcome-container h1 {
+  font-size: 4.5rem;
+  letter-spacing: 2px;
+}
+
+.welcome-text {
+  font-size: 3rem;
+  margin: 3.5rem 0;
+}
+
+.welcome-btn {
+  padding: 1.5rem 3rem;
+  font-size: 1.4rem;
+}
+
+.container {
+    max-width: 90%;
+  }
+
+}
+
+/* @media only screen and (min-width: 320px) and (max-width : 745px) {
   .welcome-container h1 {
     font-size: 4rem;
   }
@@ -321,6 +336,6 @@ body {
   .error-text {
     font-size: 15px;
   }
-}
+} */
 
 /*End: Media Queries*/
